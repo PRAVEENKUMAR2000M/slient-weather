@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background-image: url("/bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+form input::placeholder{
+  color: black;
+}
+
